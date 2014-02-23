@@ -15,6 +15,11 @@
     git clone http://www.github.com/knupfer/setup.git
     
     cd ..
+        
+    echo "[user]
+        email = fknupfer@gmail.com
+        name = knupfer" > .gitconfig
+        
     ln -s git/dotfiles/emacs/.emacs .emacs
     ln -s git/dotfiles/emacs/.emacs.d/ .emacs.d
     ln -s git/dotfiles/i3wm/.i3/ .i3
@@ -24,7 +29,8 @@
 
 * Desktop
 #+BEGIN_SRC sh
-    apt-get -y install libre-office texlive-full iceweasel okular  
+    apt-get -y install libre-office texlive-full iceweasel okular
+    apt-get -y install r-base
     apt-get -y install audacity gimp frescobaldi dropbox-nautilus
     apt-get -y install battle-of-wesnoth
 #+END_SRC

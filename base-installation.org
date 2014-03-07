@@ -3,8 +3,8 @@
     echo "deb http://ftp.de.debian.org/debian unstable main contrib non-free" > /etc/apt/sources.list
     apt-get update
     apt-get -y upgrade
-    apt-get -y install i3 xdotool ipython emacs24 emacs24-non-dfsg git python3 htop gnutls-bin
-    apt-get -y install texlive-base lilypond 
+    apt-get -y install i3 xdotool ipython emacs24 emacs24-non-dfsg git python3 htop gnutls-bin encfs gnucash
+    apt-get -y install texlive-base lilypond
     
     mkdir ~/git
     
@@ -29,7 +29,7 @@
 
 * Desktop
 #+BEGIN_SRC sh
-    apt-get -y install libre-office texlive-full iceweasel okular
+    apt-get -y install libre-office texlive-full iceweasel okular cryptkeeper #backintime
     apt-get -y install r-base
     apt-get -y install audacity gimp frescobaldi dropbox-nautilus
     apt-get -y install battle-of-wesnoth
@@ -37,7 +37,7 @@
 
 * Tablet
 #+BEGIN_SRC sh
-    apt-get -y install tightvncserver xpdf w3m
+    apt-get -y install tightvncserver xpdf w3m install-info
 #+END_SRC
 
 * Cleanup

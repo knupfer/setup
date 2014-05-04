@@ -1,7 +1,7 @@
 echo "deb http://ftp.de.debian.org/debian testing main contrib non-free" > /etc/apt/sources.list
 apt-get update
 apt-get -y upgrade
-apt-get -y install i3 xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin encfs gnucash texlive-full lilypond dmenu libre-office iceweasel okular r-base gimp audacity w3m emms install-info lzop
+apt-get -y install i3 xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base gimp audacity w3m emms install-info lzop
 
 mkdir ~/git
 

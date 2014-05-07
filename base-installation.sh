@@ -8,7 +8,6 @@ mkdir ~/git
 cd ~/git
 git clone http://www.github.com/knupfer/dotfiles.git
 git clone http://www.github.com/knupfer/knupfer.github.io.git
-git clone http://www.github.com/knupfer/shorthand.el.git
 git clone http://www.github.com/knupfer/setup.git
 git clone http://www.github.com/knupfer/global-emacs.git
 

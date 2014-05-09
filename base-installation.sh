@@ -1,7 +1,7 @@
 sudo echo "deb http://ftp.de.debian.org/debian unstable main contrib non-free" > /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get -y install i3 xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base gimp audacity w3m emms install-info lzop aspell-de
+sudo apt-get -y install i3 xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base gimp audacity w3m emms install-info lzop aspell-de ess
 
 mkdir ~/git
 

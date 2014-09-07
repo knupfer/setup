@@ -5,12 +5,10 @@ sudo apt-get -y install i3 xdotool ipython emacs24-lucid emacs24-common-non-dfsg
 
 sudo pip3 install pylint epc
 
-mkdir ~/git
-
 cd ~/git
 git clone http://www.github.com/knupfer/dotfiles.git
 git clone http://www.github.com/knupfer/knupfer.github.io.git
-git clone http://www.github.com/knupfer/setup.git
+git clone http://www.github.com/knupfer/lilypond-pretty-print.git
 git clone http://www.github.com/knupfer/global-emacs.git
 git clone http://www.github.com/knupfer/indentation-tree.el.git
 git clone http://www.github.com/knupfer/macro-type.git
@@ -26,9 +24,6 @@ ln -s ~/git/dotfiles/i3wm/.i3/ ~/.i3
 ln -s ~/git/dotfiles/iceweasel/.pentadactylrc ~/.pentadactylrc
 sh ~/.i3/change-mode.sh ACTIVE
 
-sudo ln -s ~/.emacs /root/.emacs
-sudo ln -s ~/.emacs.d /root/.emacs.d
-sudo ln -s ~/.i3 /root/.i3
 sudo apt-get -y dist-upgrade
 sudo apt-get clean
 sudo apt-get -y autoremove

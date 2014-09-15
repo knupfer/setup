@@ -1,7 +1,7 @@
 sudo echo "deb http://ftp.de.debian.org/debian unstable main contrib non-free" > /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get -y install i3 xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base r-cran-ggplot2 gimp audacity w3m emms install-info lzop aspell-de ess aqbanking-tools x11-xkb-utils xfce4-terminal owncloud-client bash-completion mupdf locales-all pip3
+sudo apt-get -y install xmonad xmobar xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base r-cran-ggplot2 gimp audacity w3m emms install-info lzop aspell-de ess aqbanking-tools x11-xkb-utils xfce4-terminal owncloud-client bash-completion mupdf locales-all pip3
 
 sudo pip3 install pylint epc
 
@@ -12,6 +12,7 @@ git clone http://www.github.com/knupfer/lilypond-pretty-print.git
 git clone http://www.github.com/knupfer/global-emacs.git
 git clone http://www.github.com/knupfer/indentation-tree.el.git
 git clone http://www.github.com/knupfer/macro-type.git
+git clone http://www.github.com/knupfer/xmonad.git
 
 cd ..
 echo "[user]
@@ -20,9 +21,9 @@ echo "[user]
 
 ln -s ~/git/dotfiles/emacs/.emacs ~/.emacs
 ln -s ~/git/dotfiles/emacs/.emacs.d/ ~/.emacs.d
-ln -s ~/git/dotfiles/i3wm/.i3/ ~/.i3
+ln -s ~/git/dotfiles/xmonad/ ~/.xmonad
+ln -s ~/git/dotfiles/xmonad/.xmobarrc ~/.xmobarrc
 ln -s ~/git/dotfiles/iceweasel/.pentadactylrc ~/.pentadactylrc
-sh ~/.i3/change-mode.sh ACTIVE
 
 sudo apt-get -y dist-upgrade
 sudo apt-get clean

@@ -1,7 +1,7 @@
 sudo echo "deb http://ftp.de.debian.org/debian unstable main contrib non-free" > /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get -y install xmonad xmobar xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base r-cran-ggplot2 gimp audacity w3m emms install-info lzop aspell-de ess aqbanking-tools x11-xkb-utils xfce4-terminal owncloud-client bash-completion mupdf locales-all pip3
+sudo apt-get -y install xmonad xmobar xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base r-cran-ggplot2 gimp audacity w3m emms install-info lzop aspell-de ess aqbanking-tools x11-xkb-utils xfce4-terminal owncloud-client bash-completion mupdf locales-all pip3 trayer
 
 sudo pip3 install pylint epc
 

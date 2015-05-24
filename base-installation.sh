@@ -1,19 +1,19 @@
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get -y install xmonad xmobar xdotool ipython emacs24-lucid emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base r-cran-ggplot2 gimp audacity w3m emms install-info lzop aspell-de ess aqbanking-tools x11-xkb-utils xfce4-terminal owncloud-client bash-completion mupdf locales-all trayer gnutls-bin xbacklight python-pip python-virtualenv virtualenv xss-lock hlint haskell-mode
+sudo apt-get -y install xdotool ipython emacs24 emacs24-common-non-dfsg git python3 htop gnutls-bin gnucash texlive-full lilypond dmenu libreoffice iceweasel okular r-base r-cran-ggplot2 gimp audacity w3m emms install-info lzop aspell-de ess aqbanking-tools x11-xkb-utils xfce4-terminal owncloud-client bash-completion mupdf locales-all trayer gnutls-bin xbacklight python-pip python-virtualenv virtualenv xss-lock hlint python-tornado python-requests python-dateutil
 
 sudo pip3 install pylint epc jedi
 
 cd ~/git
-git clone http://www.github.com/knupfer/dotfiles.git
-git clone http://www.github.com/knupfer/knupfer.github.io.git
-git clone http://www.github.com/knupfer/lilypond-pretty-print.git
-git clone http://www.github.com/knupfer/global-emacs.git
-git clone http://www.github.com/knupfer/indentation-tree.el.git
-git clone http://www.github.com/knupfer/macro-type.git
-git clone http://www.github.com/knupfer/org-panes.git
-git clone http://www.github.com/knupfer/chess-hs.git
-git clone http://www.github.com/knupfer/xmonad-conf.git
+git clone https://www.github.com/knupfer/dotfiles.git
+git clone https://www.github.com/knupfer/knupfer.github.io.git
+git clone https://www.github.com/knupfer/lilypond-pretty-print.git
+git clone https://www.github.com/knupfer/global-emacs.git
+git clone https://www.github.com/knupfer/indentation-tree.el.git
+git clone https://www.github.com/knupfer/macro-type.git
+git clone https://www.github.com/knupfer/org-panes.git
+git clone https://www.github.com/knupfer/chess-hs.git
+git clone https://www.github.com/knupfer/xmonad-conf.git
 
 cd ..
 echo "[user]
